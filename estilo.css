@@ -1,0 +1,55 @@
+h1 {
+    color: rgb(235, 13, 13);
+    font-size: 50px;
+}
+
+@media screen and (max-width:696px) {
+    h1 {
+        color: green;
+        font-size: 20px;
+    }
+
+    body {
+        background-color: aqua;
+    }
+
+#img img {
+    display: block;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+/*aplicar a formatação responsiva*/
+/* através do Medias Queries*/
+    @media screen and (min-wiidth: 697px) and (max-width: 1024px) {
+        h1 {
+            color: pink;
+            font-size: 50px;
+        }
+
+        body {
+            background-color: blue;
+        }
+    }
+
+    @media screen and (min-wiidth: 2000px) {}
+
+    h1 {
+        color: rgb(235, 11, 11);
+        font-size: 50px;
+    }
+
+    body {
+        background-color: rgb(145, 241, 34);
+    }
+}
